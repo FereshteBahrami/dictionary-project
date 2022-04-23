@@ -15,11 +15,12 @@ export default function Meaning(props) {
               <strong>Example:</strong>
               <em>{definition.example}</em>
               <br />
-              <Synonyms synonyms={definition.Synonyms} />
+              <Synonyms synonyms={definition.synonyms} />
             </p>
           </div>
         );
       })}
+      <Synonyms synonyms={props.meaning.synonyms} />
     </div>
   );
 }
