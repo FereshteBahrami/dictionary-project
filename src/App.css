@@ -20,6 +20,10 @@ body {
 a {
   color: var(--greyDark);
 }
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+}
 .App-header {
   margin: 30px auto;
   padding: 10px 0 10px 0;
