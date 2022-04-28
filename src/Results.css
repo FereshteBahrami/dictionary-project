@@ -1,5 +1,22 @@
+:root {
+  --primary-light: #8abdff;
+  --primary: #6d5dfc;
+  --primary-dark: #5b0eeb;
+
+  --white: #ffffff;
+  --greyLight-1: #e4ebf5;
+  --greyLight-2: #c8d0e7;
+  --greyLight-3: #bec8e4;
+  --greyDark: #9baacf;
+  --iceberg: #c7ecee;
+  --Bittersweet: #ff6f61;
+  --pinky: #fd79a8;
+  --lavender: #d980fa;
+  --stone: #70757a;
+}
 .Results h2 {
   font-size: 36px;
   font-weight: bold;
   line-height: 1.5;
+  color: var(--Bittersweet);
 }
